@@ -1,0 +1,256 @@
+/* font*/
+@font-face {
+  font-family: Teko-VariableFont_wght;
+  src: url(../fonts/Teko-VariableFont_wght.ttf);
+}
+* {
+  font-family: "Verdana", sans-serif;
+}
+h1 h2 h3{
+  font-family: Teko-VariableFont_wght;
+}
+/*body */
+body {
+  margin: 0;
+}
+
+/*TOP BAR START*/
+#topbar {
+  background-color: #576574;
+  padding-top: 18px; /*to not disturb the existing uni-padding */
+  padding-bottom: 18px;
+  overflow: auto;
+}
+/*this for space on left and right side */
+.uni-padding {
+  padding: 0 7%;
+}
+#social-icon {
+  float: right;
+}
+#tollfree {
+  float: left;
+  color: #fdfdfd;
+  margin: 0;
+  margin-top: 4px;
+}
+.fab {
+  background-color: #fdfdfd;
+  color: #576574;
+  padding: 7px;
+  border-radius: 50%;
+}
+.fa-facebook-f {
+  padding: 7px 10px;
+}
+.fa-whatsapp {
+  padding: 7px 9px;
+}
+.fa-instagram {
+  padding: 7px 8px;
+}
+/*TOPBAR START END*/
+
+/* logo */
+#logobar img {
+  height: 40px;
+  width: 120px;
+  margin: 10px 0px;
+}
+
+/*NAV BAR START */
+
+#navbar {
+  background-color: #ee2535;
+}
+/* to flot the navigation bar */
+#navbar ul li {
+  display: inline-block;
+  padding: 18px 0px;
+  padding-right: 35px;
+}
+#navbar ul{
+  margin: 0px;
+  padding: 0;
+}
+#navbar ul li a {
+  color: wheat;
+  text-decoration: none;e;
+}
+/*NAV BAR END */
+
+/*poster Start */
+#poster {
+  background-image: url(../images/banner.jpg);
+  height:500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  color: yellow;
+  flex-direction: column;
+  
+}
+#poster h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+#poster p {
+  padding: 0px;
+  margin: 0px;
+}
+/* why us */
+#whysection{
+ overflow: auto;
+ margin-bottom: 20px;
+}
+.red-heading{
+  color: #ee5253;
+  text-align:center;
+}
+.section33{
+  width: 33.33%;
+  float:left ;
+  text-align: center;
+  padding: 0px 50px 0 50px;
+  box-sizing: border-box;
+
+}
+.section33 img{
+  width: 200px;
+  height: 200px;
+}
+
+.section33 h2{
+  color: #ee5253;
+}
+.section33 p{
+  color: #363636;
+}
+
+/* contact section Start*/
+#contact-container{
+  background-color: #ee5253;
+  color: white;
+  overflow: unset;
+  overflow: auto;
+  padding-top: 15px;
+  padding-bottom: 20px;
+
+}
+.section70{
+width: 70%;
+float: left;
+}
+.section30{
+width: 30%;
+float: left;
+text-align: center;
+padding-top: 80px;
+}
+#contact-btn{
+  background-color: white;
+  color: #ee5253;
+  padding: 15px 50px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  
+}
+/* Blog*/
+.section33 img{
+max-width: 100%;
+}
+.section33 a{
+  color: #ee5253;
+  font-weight:bold;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Teko-VariableFont_wght;
+}
+/*blog end*/
+
+/* subscribe start */
+#sbcribe{
+  overflow: auto;
+  color: white;
+  background-color: #ee5253;
+
+}
+.section50{
+ width: 50%;
+ float: left;
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
+.section50 h2{
+  text-align: right;
+  padding-right: 30px;
+}
+.section50 form{
+  padding-top: 20px;
+}
+.section50 input[type="text"]{
+  padding: 10px;
+  margin-left: 10px;
+  color: #ee5253;
+  border: 0px;
+}
+.section50 button[type="submit"]{
+  padding:10px 35px;
+  font-size: 12px;
+  color: red;
+}
+/* subscribe end */
+/* FOOTER START */
+
+#imp-link {
+  background-color: #576574;
+  color: white;
+  overflow: auto;
+}
+.div33{
+width: 33.33%;
+float: left; /* after it got over flow  so in parent adding overflow:auto*/
+padding: 25px 50px;
+box-sizing: border-box;
+}
+.div33 h3{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  font-weight: normal;
+  
+}
+#test{
+  text-align: justify;
+  word-wrap: break-word;
+  word-spacing: 1px;
+}
+#footer-menu{
+ list-style-type: none;
+ padding: 0;
+}
+#footer-menu li{
+  padding-bottom:10px ;
+}
+#footer-menu li a{
+  color: white;
+  text-decoration: none;
+}
+#footer-menu-contaner{
+  padding-left: 100px;
+}
+/*copy write*/
+#copyright{
+  background-color: #254b74;
+  color:#cdcdcd;
+  text-align: center;
+  padding: 10px 0px;
+}
+#copyright p{
+  font-size: 12px;
+}
+/* FOOTER END */
